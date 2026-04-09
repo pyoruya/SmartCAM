@@ -1,0 +1,33 @@
+# Android
+*.iml
+.gradle/
+local.properties
+.idea/
+captures/
+build/
+*.apk
+*.aab
+*.ap_
+*.dex
+*.class
+
+# Windows / Visual Studio
+.vs/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+*.user
+*.suo
+*.pdb
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editors
+.vscode/
+*.swp
