@@ -1,0 +1,4 @@
+LIBRARY SmartCAMVCam
+EXPORTS
+    DllGetClassObject PRIVATE
+    DllCanUnloadNow   PRIVATE

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SmartCAM</string>
+    <string name="status_initializing">Initializing…</string>
+    <string name="status_waiting">Waiting for PC connection…</string>
+    <string name="status_streaming">Streaming to PC</string>
+    <string name="status_no_permission">Camera permission required</string>
+    <string name="status_error">Error: %1$s</string>
+</resources>

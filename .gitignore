@@ -31,3 +31,12 @@ desktop.ini
 # Editors
 .vscode/
 *.swp
+
+# Third-party binaries (bundled at build time, not committed)
+third_party/adb/*.exe
+third_party/adb/*.dll
+
+# CMake build
+windows/build/
+windows/out/
+CMakeUserPresets.json
