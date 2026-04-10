@@ -6,6 +6,13 @@ add_executable(SmartCAMHost WIN32
     src/adb_manager.h
     src/stream_receiver.cpp
     src/stream_receiver.h
+    src/h264_decoder.cpp
+    src/h264_decoder.h
+)
+
+target_include_directories(SmartCAMHost PRIVATE
+    ${CMAKE_CURRENT_SOURCE_DIR}/src
+    ${CMAKE_SOURCE_DIR}/shared/src
 )
 
 target_link_libraries(SmartCAMHost PRIVATE
@@ -16,6 +23,7 @@ target_link_libraries(SmartCAMHost PRIVATE
     ole32
     shell32
     user32
+    ws2_32
 )
 
 # Copy adb.exe to output directory if present

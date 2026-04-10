@@ -1,4 +1,5 @@
 #include "media_source.h"
+#include <mferror.h>
 
 namespace smartcam {
 
